@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f0be27;
+}
+
+.logo {
+  margin: 20px 0 20px 20px;
+}
+
+nav {
+  padding: 0.5rem;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+nav li a {
+  border: 2px solid rgb(10, 83, 22);
+  color: rgb(105, 140, 238);
+  border-radius: 10px;
+  padding: 2px 20px;
+}
+
+nav li a:hover {
+  color: darkgreen;
+  background-color: black;
+}
+h2 {
+  margin: 20px 0 20px 20px;
+}
+
+.tb-01 {
+  background-color: rgb(0, 255, 98);
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px 0 20px 20px;
+}
+
+#th-01 {
+  border: 2px solid black;
+}
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  border: 2px solid black;
+}
+
+.tb-02 {
+  background-color: chartreuse;
+  color: black;
+  padding: 50px;
+  margin: 20px 0 20px 20px;
+}
+
+p {
+  margin: 20px 0 20px 20px;
+}
+
+div {
+  margin: 20px 0 20px 20px;
+}
+
+.bilder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  border: 2px solid black;
+  background: rgb(89, 53, 136);
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+}
+
+.darsteller-bild {
+  width: 150px;
+}
+
+footer {
+  color: white;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+footer a:hover {
+  color: darkgreen;
+  background-color: black;
+}

@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #f0be27;
+}
+
+#null {
+  margin: 20px 0 20px 20px;
+}
+
+nav {
+  padding: 0.5rem;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+nav li a {
+  border: 2px solid rgb(10, 83, 22);
+  color: rgb(105, 140, 238);
+  border-radius: 10px;
+  padding: 2px 20px;
+}
+
+nav li a:hover {
+  color: darkgreen;
+  background-color: black;
+}
+
+address {
+  font-style: normal;
+}
+
+form {
+  max-width: 400px;
+  background-color: #f0be27;
+  padding: 1rem;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+p {
+  margin: 20px 0 20px 20px;
+}
+h2 {
+  margin: 20px 0 20px 20px;
+}
+
+label[for] {
+  cursor: pointer;
+  display: block;
+}
+
+.kontaktfoprmular div {
+  margin-bottom: 1rem;
+}
+
+.kontaktformular label {
+  cursor: pointer;
+}
+
+.kontaktformular [for] {
+  display: block;
+}
+
+.kontaktformular button {
+  background-color: rgb(134, 134, 131);
+  color: rgb(5, 5, 5);
+  padding: 0.5rem;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.icon {
+  color: #f0be27;
+  padding: 0.5rem;
+  margin-left: 20px;
+  list-style-type: none;
+}
+.icon ul {
+  display: flex;
+  margin-right: 0.5rem;
+}
+
+.icon ul li a {
+  font-size: 100px;
+  padding: 16px;
+  color: rgb(23, 194, 60);
+}
+
+.icon ul li a:hover {
+  background-color: red;
+}
+
+footer {
+  color: white;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+footer a:hover {
+  color: darkgreen;
+  background-color: black;
+}

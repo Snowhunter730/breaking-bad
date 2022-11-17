@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/781822.jpg");
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(244, 210, 48, 255);
+}
+
+#null {
+  margin: 20px 0 20px 20px;
+}
+
+nav {
+  padding: 0.5rem;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+nav li a {
+  border: 2px solid rgb(10, 83, 22);
+  color: rgb(105, 140, 238);
+  border-radius: 10px;
+  padding: 2px 20px;
+}
+
+nav li a:hover {
+  color: darkgreen;
+  background-color: black;
+}
+
+h1 {
+  margin: 20px 0 20px 20px;
+}
+
+#eins {
+  margin: 20px 0 20px 20px;
+  color: brown;
+}
+
+#zwei {
+  margin: 20px 0 20px 20px;
+  color: brown;
+}
+
+#drei {
+  width: 900px;
+  margin: 20px 0 20px 20px;
+  color: brown;
+}
+
+#vier {
+  margin: 20px 0 20px 20px;
+  width: 800px;
+  color: brown;
+}
+
+#fuenf {
+  margin: 20px 0 20px 20px;
+  color: brown;
+}
+
+#sechs {
+  margin: 20px 0 20px 20px;
+  color: brown;
+}
+.cover-bild {
+  width: 300px;
+}
+
+div {
+  margin: 20px 0 20px 20px;
+}
+
+footer {
+  color: rgb(105, 140, 238);
+  text-align: right;
+  padding: 0.5rem;
+}
+
+footer a {
+  color: rgb(105, 140, 238);
+  text-decoration: none;
+  font-weight: bold;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+footer a:hover {
+  color: darkgreen;
+  background-color: black;
+}
